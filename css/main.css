@@ -1,0 +1,36 @@
+* {padding: 0;margin: 0;box-sizing: border-box;border-radius: 10px;font-family: lateef;font-size: 20px;direction: rtl;}body {position: relative;}#li_ni {width: 50px;height: 50px;position: absolute;right: 10px;top: 10px;margin: 10px;display: block;background-image: url('../img/li.svg');background-position: 50% 50%;background-repeat: no-repeat;background-size: 70% 70%;}header {overflow: hidden;border-radius: 0;padding: 10px;background-color: #3ab5fa;position: relative;height: 80px;direction: rtl;z-index: 5;}header img {width: 60px;height: 60px;}header h2 {color: white;position: absolute;top: calc((100% - 60px)/2);right: 80px;max-width: calc(100% - 150px);max-height: 60px;line-height: 60px;font-family: reem;font-size: 23px;}header button {position: absolute;left: 10px;top: 15px;width: 50px;height: 50px;border: 2px solid white;background: none;transform: rotate(90deg);color: white;font-size: 25px;font-weight: bold;}
+nav {
+  height: 50px;
+  display: block;
+  border-radius: 0;
+  background-color: #3ab5fa88;
+  overflow: hidden;
+}
+nav a {
+  display: inline-block;
+  width: 24%;
+  height: 50px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 70% 70%;
+}
+nav .nahome {
+  background-image: url('../img/home.svg');
+}
+nav .nasearch {
+  background-image: url('../img/search.svg');
+}
+nav .nabook {
+  background-image: url('../img/book.svg');
+}
+nav .naclock {
+  background-image: url('../img/clock.svg');
+}
+nav .active {
+  background-color: gold;
+}
+#dialogdiv {width: 75%;padding: 30px;padding-top: 70px;position: fixed;top: 80px;left: -100%;background-color: white;border-radius: 0;transition: all .5s linear;-webkit-transition: all .5s linear;text-align: center;z-index: 5;}#dialogdiv .li {background-image: url('../img/li.svg');background-position: 50% 50%;background-repeat: no-repeat;background-size: 70% 70%;}#dialogdiv .ni {background-image: url('../img/ni.svg');background-position: 50% 50%;background-repeat: no-repeat;background-size: 70% 70%;}#dialogdiv a {text-decoration: none;padding: 10px;margin: 10px;width: 200px;border: 2px solid #3ab5fa;display: inline-block;color: #3ab5fa;}.container, #mynoti {background-color: #3ab5fa;margin: 10px auto;padding: 5px;width: 95%;text-align: center;}#alldoc {background-color: black;opacity: .5;position: absolute;top: 80px;left: 0;width: 100%;height: calc(100% - 70px);overflow: hidden;z-index: 3;border-radius: 0;display: none;}
+.container {margin-bottom: 150px;}#mynoti {direction: rtl;text-align: right;}#mynoti div {background-color: white;padding: 10px;margin: 10px;overflow: hidden;position: relative;min-height: 90px;}#mynoti div p {max-width: calc(100% - 40px);}#mynoti button {width: 40px;height: 40px;border: none;}#mynoti .delbtn {position: absolute;left: 5px;top: 5px;background: none;background-image: url('../img/clear.svg');background-position: 50% 50%;background-repeat: no-repeat;background-size: 70% 70%;}#mynoti .edibtn {position: absolute;left: 5px;top: 45px;background: none;background-image: url('../img/edit.svg');background-position: 50% 50%;background-repeat: no-repeat;background-size: 70% 70%;border: no-repeat;}.container div {box-shadow: 2px 2px black;display: inline-block;width: 45%;margin: 5px;padding: 5px;background-color: white;}.container div:hover {background-color: blue;color:white;}.container div img {width: 140px;height: 180px;box-shadow: 2px 2px black;margin: 10px auto;display: inline-block;}#loading {width: 150px;height: 150px;margin: 20px auto;display: block;}#booktitle, #corstitle {background-color: white;padding: 10px;margin: 10px;border: 5px solid red;}#booktitle {background-color: gold;background-image: url('../img/book.svg');background-repeat: no-repeat;background-size: 20% 70%;background-position: 95% 50%;}#corstitle {border: none}@font-face {font-family: lateef;src: url(lateefe.ttf);}@font-face {font-family: reem;src: url(reem.ttf);}#lastcors {position: fixed;bottom: 0;left: 0;height: 100px;background-color: #3ab5fa;padding: 5px;width: 100%;border-radius: 0;z-index: 3;display: none;}#lastcors a {text-decoration: none;border: 2px solid white;color: white;padding: 5px;margin: 10px;display: block;padding-right: 70px;background-image: url('../img/bookmark.svg');background-position: 130% 50%;background-repeat: no-repeat;background-size: 50% 50%;}
